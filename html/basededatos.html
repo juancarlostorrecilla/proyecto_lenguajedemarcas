@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASE DE DATOS</title>
+    <link rel="stylesheet" href="../css/basededatos.css">
+</head>
+<body>
+    <header class="cabecera">
+        <div class="logo">
+            <a href="https://www.iesmedinaazahara.es/"><img src="../images/logo-removebg-preview.png" alt="Logo"></a>
+        </div>
+        <a class="decoracion" href="../html/redes.html"><h2>REDES</h2></a>
+        <a class="decoracion" href="../html/lenguaje.html"><h2>LENGUAJE DE MARCAS</h2></a>
+        <a class="decoracion" href="../html/sobremi.html"><h2>SOBRE MI</h2></a>
+        <a class="decoracion" href="../index.html"><img src="../images/house-fill.svg" alt=""></a>
+        <nav class="social">
+            <a href="www.linkedin.com/in/juan-carlos-torrecilla-castro-00212829a"><img src="../images/linkedin.svg" alt="linkedin"></a>
+            <a href="https://www.instagram.com/juancaa_04/?next=%2F"><img src="../images/instagram.svg" alt="Instagram"></a>
+            <a href="https://www.tiktok.com/@juancaa_04"><img src="../images/tiktok.svg" alt="TikTok"></a>
+        </nav>
+    </header>
+    <main class="sesion">
+        <div class="contenido">
+            <h1 class="titulo">MODELO E/R</h1>
+            <img class="imagen" src="../images/basededatos1(1).png" alt="">
+            <p>Este es el modelo entidad-relación que he desarrollado para mi proyecto de bases de datos. He diseñado este modelo a partir de un enunciado propio, pensado específicamente para cubrir las necesidades y los casos de uso planteados en el trabajo. A continuación, se detallan las entidades, relaciones y atributos creados para representar de forma estructurada la información y facilitar su gestión en la base de datos. Aqui pongo el enunciado:</p><br><br>
+            <p class="enunciado">Una liga de futbol quiere guardar la información de los equipos que 
+                tienen. <br>
+                Cada equipo puede tener uno o varios entrenadores, de los cuales queremos 
+                guardar sus datos personales. <br>
+                Tambien queremos guardar los datos de los jugadores de cada equipo (dni, 
+                nombre,apellidos,direccion,dorsal) <br>
+                Queremos ver tambien la fecha, lugar y equipos que participan de los partidos. <br>
+                En cada partido habra uno o mas arbitros, de estos queremos saber 
+                sus datos personales <br>
+                Cada equipo puede tener o no tener patrocinadores, de los cuales queremos 
+                guardar su nombre y precio que le paga al equipo. <br>
+                - Cada equipo tiene que tener un capitan maximo y obligatorio 
+                - Queremos guardar las lesiones que tienen los jugadores (descripción, <br>
+                nombre) <br>
+                - Un jugador solo puede estar en un solo equipo <br>    
+                - Queremos saber tambien si los jugadores son porteros, defensas, <br>
+                centrocampistas o delanteros. Solo juegan en una sola posicion <br>
+                - Queremos guardar informacion de las infracciones que les ha puesto <br>
+                un arbitro a un jugador y en que partido, estas infracciones son <br>
+                tarjetas amarillas y tarjetas rojas</p>
+                <br><br><br>
+                <h1 class="titulo">TRANSFORMACIÓN</h1>
+                <img class="imagen" src="../images/transformacion.png" alt="">
+                <p>Aqui esta el resultado de aver transformado el modelo E/R que hemos hecho anteriormente, he ido paso a paso usando las reglas de transformacion <br>
+                correspondientes, y antes aver usado las reglas preparatorias.</p>
+                <br><br><br>
+                <img class="transformacion" src="../images/explicaciontransformacion.png" alt="">
+                <p>Aqui explico paso por paso la regla de transformación empleada y la forma en la que he transdormado.</p>
+                <br><br><br>
+                <h1 class="titulo">NORMALIZACIÓN</h1>
+                <img class="normalizacion" src="../images/normalizacion.png" alt="">
+                <p>Ahora mediante la normalización he comprobado que haya realizado bien la transformación usando el metodo de Forma normal de Boyce-Codd</p>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Carlos</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header class="cabecera">
+        <div class="logo">
+            <a href="https://www.iesmedinaazahara.es/"><img src="images/logo-removebg-preview.png" alt="Logo"></a>
+        </div>
+        <h1 class="titulo">JUAN CARLOS</h1>
+        <nav class="social">
+            <div class="luna"><button id="modo-noche-btn"><img id="icono-modo" src="images/moon.svg" alt="Modo noche"></button></div>
+            <a href="www.linkedin.com/in/juan-carlos-torrecilla-castro-00212829a"><img src="images/linkedin.svg" alt="linkedin"></a>
+            <a href="https://www.instagram.com/juancaa_04/?next=%2F"><img src="images/instagram.svg" alt="Instagram"></a>
+            <a href="https://www.tiktok.com/@juancaa_04"><img src="images/tiktok.svg" alt="TikTok"></a>
+        </nav>
+    </header>
+    <main class="sesiones">
+        <a class="decoracion" href="html/basededatos.html"><div class="card">
+            <h2>BASE DE DATOS</h2>
+            <img src="images/database-4941302_640.png" alt="base de datos">
+        </div></a>
+        <a class="decoracion" href="html/redes.html"><div class="card">
+            <h2>REDES</h2>
+            <img src="images/parts-1086747_640.png" alt="redes">
+        </div></a>
+        <a class="decoracion" href="html/lenguaje.html"><div class="card">
+            <h2>LENGUAJE DE MARCAS</h2>
+            <img src="images/symbol-2485367_640.png" alt="lenguaje de marcas">
+        </div></a>
+        <a class="decoracion" href="html/sobremi.html"><div class="card">
+            <h2>COSAS SOBRE MI</h2>
+            <img src="images/icon-4399701_640.png" alt="cosas sobre mi">
+        </div></a>
+    </main>
+    <main class="pie">
+        <div class="fuente">Todas las imagenes de esta página se han cogido directamente de Pixabay y Bootstrap. <br> Todos los derechos reservados. <img src="images/c-circle.svg" alt="copy"></div>
+    </main>
+    <script>
+        const btn = document.getElementById('modo-noche-btn');
+        const icono = document.getElementById('icono-modo');
+
+        btn.addEventListener('click', () => {
+            document.body.classList.toggle('modo-noche');
+
+            if (document.body.classList.contains('modo-noche')) {
+                icono.src = 'images/sun.svg';
+                icono.alt = 'Modo día';
+            } else {
+                icono.src = 'images/moon.svg';
+                icono.alt = 'Modo noche';
+            }
+        });
+    </script>
+</body>
+</html>
