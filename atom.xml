@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="https://juancarlostorrecilla.github.io/proyecto_lenguajedemarcas/">
+  <id>https://juancarlostorrecilla.github.io/proyecto_lenguajedemarcas</id>
+  <title>ASIR Juan Carlos</title>
+  <updated>2025-03-25T13:30:00+01:00</updated>
+  <link rel="alternate" href="https://juancarlostorrecilla.github.io/proyecto_lenguajedemarcas/atom.xml"/>
+  <author>
+    <name>Juan Carlos Torrecilla Castro</name>
+    <email>juancarlostorrecillacastro@gmail.com</email>
+  </author>
+  <category term="inicio"/>
+  
+  <entry>
+    <id>https://juancarlostorrecilla.github.io/proyecto_lenguajedemarcas/html/basededatos.html</id>
+    <title>Base de datos</title>
+    <updated>2025-03-25T13:30:00+01:00</updated>
+    <author>
+      <name>Juan Carlos Torrecilla Castro</name>
+      <email>juancarlostorrecillacastro@gmail.com</email>
+    </author>
+    <summary>Aquí encontrarás contenido sobre base de datos</summary>
+    <link rel="alternate" href="https://juancarlostorrecilla.github.io/proyecto_lenguajedemarcas/html/basededatos.html"/>
+  </entry>
+  
+  <entry>
+    <id>https://juancarlostorrecilla.github.io/proyecto_lenguajedemarcas/html/redes.html</id>
+    <title>Redes</title>
+    <updated>2025-03-25T13:30:00+01:00</updated>
+    <author>
+      <name>Juan Carlos Torrecilla Castro</name>
+      <email>juancarlostorrecillacastro@gmail.com</email>
+    </author>
+    <summary>Aquí encontrarás contenido sobre redes</summary>
+    <link rel="alternate" href="https://juancarlostorrecilla.github.io/proyecto_lenguajedemarcas/html/redes.html"/>
+  </entry>
+  
+  <entry>
+    <id>https://juancarlostorrecilla.github.io/proyecto_lenguajedemarcas/html/sobremi.html</id>
+    <title>Sobre Mi</title>
+    <updated>2025-03-25T13:30:00+01:00</updated>
+    <author>
+      <name>Juan Carlos Torrecilla Castro</name>
+      <email>juancarlostorrecillacastro@gmail.com</email>
+    </author>
+    <summary>Aquí encontrarás contenido sobre mí</summary>
+    <link rel="alternate" href="https://juancarlostorrecilla.github.io/proyecto_lenguajedemarcas/html/sobremi.html"/>
+  </entry>
+  
+  <entry>
+    <id>https://juancarlostorrecilla.github.io/proyecto_lenguajedemarcas/html/lenguaje.html</id>
+    <title>Lenguaje de Marcas</title>
+    <updated>2025-03-25T13:30:00+01:00</updated>
+    <author>
+      <name>Juan Carlos Torrecilla Castro</name>
+      <email>juancarlostorrecillacastro@gmail.com</email>
+    </author>
+    <summary>Aquí encontrarás contenido sobre lenguaje de marcas</summary>
+    <link rel="alternate" href="https://juancarlostorrecilla.github.io/proyecto_lenguajedemarcas/html/lenguaje.html"/>
+  </entry>
+</feed>
