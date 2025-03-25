@@ -38,6 +38,10 @@ body {
     color: inherit;
     text-decoration: none;
 }
+.activo {
+    color: yellow;
+    text-decoration: none;
+}
 .decoracion:hover {
     color: inherit;
     text-decoration: none;
