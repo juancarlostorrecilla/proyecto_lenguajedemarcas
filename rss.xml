@@ -1,0 +1,62 @@
+<rss version="2.0">
+<channel>
+<!--Prólogo-->
+<title>ASIR Juan Carlos</title>
+<link>https://juancarlostorrecilla.github.io/proyecto_lenguajedemarcas/</link>
+<description> En esta página encontraras el index de mi página </description>
+<category>inicio</category>
+<copyright>Todos los derechos reservados</copyright>
+<language>es-es</language>
+<lastBuildDate>Martes, 25 marzo 2025 13:30:00 +0100</lastBuildDate>
+<webMaster>juancarlostorrecillacastro@gmail.com</webMaster>
+<!-- Noticias del canal -->
+<item>
+<title>Base de datos</title>
+<description>
+Aqui encontraras contenido sobre base de datos
+</description>
+<link>
+https://juancarlostorrecilla.github.io/proyecto_lenguajedemarcas/html/basededatos.html
+</link>
+<author>juancarlostorrecillacastro@gmail.com</author>
+<category>basededatos</category>
+<pubDate>Martes, 25 marzo 2025 13:30:00 +0100</pubDate>
+</item>
+<item>
+<title>Redes</title>
+<description>
+Aqui encontraras contenido sobre redes
+</description>
+<link>
+https://juancarlostorrecilla.github.io/proyecto_lenguajedemarcas/html/redes.html
+</link>
+<author>juancarlostorrecillacastro@gmail.com</author>
+<category>redes</category>
+<pubDate>Martes, 25 marzo 2025 13:30:00 +0100</pubDate>
+</item>
+<item>
+<title>Sobre Mi</title>
+<description>
+Aqui encontraras contenido sobre mi
+</description>
+<link>
+https://juancarlostorrecilla.github.io/proyecto_lenguajedemarcas/html/sobremi.html
+</link>
+<author>juancarlostorrecillacastro@gmail.com</author>
+<category>sobremi</category>
+<pubDate>Martes, 25 marzo 2025 13:30:00 +0100</pubDate>
+</item>
+<item>
+<title>Lenguaje de Marcas</title>
+<description>
+Aqui encontraras contenido sobre lenguaje de marcas
+</description>
+<link>
+https://juancarlostorrecilla.github.io/proyecto_lenguajedemarcas/html/lenguaje.html
+</link>
+<author>juancarlostorrecillacastro@gmail.com</author>
+<category>lenguajedemarcas</category>
+<pubDate>Martes, 25 marzo 2025 13:30:00 +0100</pubDate>
+</item>
+</channel>
+</rss>
